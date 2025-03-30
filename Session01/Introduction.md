@@ -31,7 +31,7 @@ Subject to
 
 ## 🧩 Problem Classification Diagram
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MIT-Emerging-Talent/ET6-Recitations-6002x/main/Session01/knapsack.png" alt="Knapsack Problem Diagram" width="500"/>
+  <img src="https://raw.githubusercontent.com/MIT-Emerging-Talent/ET6-Recitations-6002x/main/Session01/knap.png" alt="Knapsack Problem Diagram" width="500"/>
 </p>
 
 <p align="center"><em>Flowchart: Knapsack problem and solution strategies</em></p>
