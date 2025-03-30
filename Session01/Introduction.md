@@ -27,15 +27,21 @@ The problem:
 
 ## 🎒 Visualization
 
-![Diagram](https://github.com/MIT-Emerging-Talent/ET6-Recitations-6002x/blob/main/Session01/knapsack2.png)
-*Example: Maximize value under a 1500 calorie limit*
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MIT-Emerging-Talent/ET6-Recitations-6002x/main/Session01/knapsack2.png" alt="Diagram" width="500"/>
+</p>
+
+<p align="center"><em>Example: Maximize value under a 1500 calorie limit</em></p>
 
 ---
 
 ## 🧩 Problem Classification Diagram
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MIT-Emerging-Talent/ET6-Recitations-6002x/main/Session01/knapsack.png" alt="Knapsack Problem Diagram" width="600"/>
+</p>
 
-![Flowchart](knapsack_diagram.png)  
-*A conceptual map of the 0/1 Knapsack problem and its solution strategies.*
+<p align="center"><em>Flowchart: Knapsack problem and solution strategies</em></p>
+
 
 ---
 
