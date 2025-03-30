@@ -27,7 +27,7 @@ The problem:
 
 ## 🎒 Visualization
 
-![Backpack with calorie capacity](backpack.jpg)  
+![Diagram] (https://github.com/MIT-Emerging-Talent/ET6-Recitations-6002x/blob/main/Session01/knapsack2.png)
 *Example: Maximize value under a 1500 calorie limit*
 
 ---
