@@ -12,23 +12,17 @@ You are given:
 - A list of items `I`, where each item has a `value` and a `weight`
 - A binary vector `V` where `V[i]` = 1 means item `i` is included, 0 means excluded
 
-The problem:
+**The problem:**
 
-**Maximize**  
-\[
-\sum_{i=0}^{n-1} V[i] \cdot I[i].value
-\]  
-**Subject to**  
-\[
-\sum_{i=0}^{n-1} V[i] \cdot I[i].weight \leq w
-\]
+Maximize  
+`∑ V[i] * I[i].value` (from i = 0 to n - 1)
 
----
+Subject to  
+`∑ V[i] * I[i].weight ≤ w` (from i = 0 to n - 1)
 
-## 🎒 Visualization
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MIT-Emerging-Talent/ET6-Recitations-6002x/main/Session01/knapsack2.png" alt="Diagram" width="500"/>
+  <img src="https://raw.githubusercontent.com/MIT-Emerging-Talent/ET6-Recitations-6002x/main/Session01/knapsack2.png" alt="Diagram" width="200"/>
 </p>
 
 <p align="center"><em>Example: Maximize value under a 1500 calorie limit</em></p>
@@ -37,7 +31,7 @@ The problem:
 
 ## 🧩 Problem Classification Diagram
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MIT-Emerging-Talent/ET6-Recitations-6002x/main/Session01/knapsack.png" alt="Knapsack Problem Diagram" width="600"/>
+  <img src="https://raw.githubusercontent.com/MIT-Emerging-Talent/ET6-Recitations-6002x/main/Session01/knapsack.png" alt="Knapsack Problem Diagram" width="500"/>
 </p>
 
 <p align="center"><em>Flowchart: Knapsack problem and solution strategies</em></p>
