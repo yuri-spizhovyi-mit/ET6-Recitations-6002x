@@ -83,14 +83,6 @@ testGreedys(foods, 1000)
 
 ---
 
-## 🧩 Stretch Exercise (Optional)
-
-Try modifying the item list or calorie constraint.  
-Can you create an example where the greedy algorithm gives a suboptimal solution?  
-What does that reveal about its limitations?
-
----
-
 ## 📌 Learning Goals
 
 - Understand how greedy algorithms **approximate** optimal solutions
