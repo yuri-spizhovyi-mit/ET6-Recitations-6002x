@@ -22,7 +22,7 @@ Subject to
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MIT-Emerging-Talent/ET6-Recitations-6002x/main/Session01/knapsack2.png" alt="Diagram" width="200"/>
+  <img src="https://github.com/MIT-Emerging-Talent/ET6-Recitations-6002x/blob/main/Session_01/knapsack2.png?raw=true" alt="Diagram" width="200"/>
 </p>
 
 <p align="center"><em>Example: Maximize value under a 1500 calorie limit</em></p>
@@ -31,7 +31,7 @@ Subject to
 
 ## 🧩 Problem Classification Diagram
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MIT-Emerging-Talent/ET6-Recitations-6002x/main/Session01/knap.png" alt="Knapsack Problem Diagram" width="500"/>
+  <img src="https://github.com/MIT-Emerging-Talent/ET6-Recitations-6002x/blob/main/Session_01/knap.png?raw=true" alt="Knapsack Problem Diagram" width="500"/>
 </p>
 
 <p align="center"><em>Flowchart: Knapsack problem and solution strategies</em></p>
