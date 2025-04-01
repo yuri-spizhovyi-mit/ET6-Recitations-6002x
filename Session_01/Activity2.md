@@ -9,7 +9,6 @@ Explore and describe how the recursive function `maxVal()` simulates a **decisio
 
 ## 🧠 What is the relationship between brute-force and decision tree?
 
-This is a great teaching moment! Here's a clear breakdown you can use in class or share in a guide:
 
 ---
 
@@ -32,7 +31,7 @@ The **decision tree** is a **visual model** of the **brute-force search space**.
 - **Brute force** checks them all  
 - **Recursion** (in `maxVal`) explores that space without drawing the full tree
 
-This connection helps students see how a complex algorithm can be structured and analyzed more clearly.
+This connection helps you see how a complex algorithm can be structured and analyzed more clearly.
 
 
 ## 🧠 Background: What Does `maxVal()` Do?
