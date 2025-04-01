@@ -5,6 +5,35 @@
 Explore and describe how the recursive function `maxVal()` simulates a **decision tree** to solve the 0/1 Knapsack Problem.
 
 ---
+# 🌳 Brute Force and the Decision Tree
+
+## 🧠 What is the relationship between brute-force and decision tree?
+
+This is a great teaching moment! Here's a clear breakdown you can use in class or share in a guide:
+
+---
+
+## 🔄 Brute Force → Decision Tree: Conceptual Evolution
+
+| Concept         | Meaning                                                                 |
+|-----------------|-------------------------------------------------------------------------|
+| **Brute Force** | Try all combinations of items to find the one with the highest value under the constraint. |
+| **Decision Tree** | A structured way to visualize or simulate brute force by making binary decisions: take or not take each item. |
+| **Tree Structure** | Each node in the tree represents a partial solution. Left = take item, Right = skip item. |
+| **Recursion**   | The `maxVal()` function simulates this tree implicitly via recursion — it doesn’t draw the tree, but it behaves like it’s walking through it. |
+
+---
+
+## ✅ In Short
+
+The **decision tree** is a **visual model** of the **brute-force search space**.
+
+- Each **path from root to leaf** = one possible subset of items  
+- **Brute force** checks them all  
+- **Recursion** (in `maxVal`) explores that space without drawing the full tree
+
+This connection helps students see how a complex algorithm can be structured and analyzed more clearly.
+
 
 ## 🧠 Background: What Does `maxVal()` Do?
 
