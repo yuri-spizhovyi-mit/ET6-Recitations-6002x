@@ -67,7 +67,8 @@ n(n - 1)/2
 
 You can use the following animation to visualize how `"ABCD"` becomes `"DCBA"` using 6 adjacent swaps:
 
-👉 [Download the animation here](adjacent_swaps_animation_clearer.gif)
+👉 ![Animation of adjacent swaps](adjacent_swaps.gif)
+
 
 ---
 
