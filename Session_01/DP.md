@@ -33,10 +33,10 @@ We can draw out the brute-force approach as a **decision tree**:
 - Each path down the tree is one combination of decisions.
 
 ### Example:
-
-![Search Tree](tree.png)
-
-You can quickly see that many **branches share subproblems** — we're solving the same smaller problems again and again.
+<p align="center">
+<img src="tree.png" alt="Search Tree" width="800"/>
+</p>
+You can quickly see that many branches share subproblems — we're solving the same smaller problems again and again.
 
 ---
 
@@ -56,7 +56,10 @@ This saves **a massive amount of time**, especially for larger inputs.
 
 The diagram below helps us visualize two key ideas behind DP:
 
-![Overlapping Subproblems and Optimal Substructure](dp_structure.png)
+<p align="center">
+<img src="tree_dp.png" alt="Overlapping Subproblems and Optimal Substructure" width="800"/>
+</p>
+
 
 ### 🔹 Optimal Substructure (Left Side)
 - Shows a **decision tree** breaking down a big problem into smaller subproblems.
