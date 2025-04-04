@@ -61,15 +61,32 @@ The diagram below helps us visualize two key ideas behind DP:
 </p>
 
 
-### 🔹 Optimal Substructure (Left Side)
-- Shows a **decision tree** breaking down a big problem into smaller subproblems.
-- The full solution depends on the **optimal solutions to subparts**.
 
 ### 🔹 Overlapping Subproblems (Right Side)
 - Highlights how the **same subproblems** are solved repeatedly in different paths.
 - DP avoids this by **remembering and reusing results**.
 
 ---
+
+## 🖼 Pictorial View: Why DP Works
+
+The diagram below helps us visualize two key ideas behind DP:
+
+<p align="center">
+  <img src="dp.png" alt="Overlapping Subproblems and Optimal Substructure" width="450"/>
+</p>
+
+### 🔹 Optimal Substructure (Left Side)
+- This tree starts from node `A` and shows how solving smaller subproblems (`B`, `C`, etc.) helps us solve the overall problem.
+- The **overall optimal solution** depends on combining **optimal solutions to these subparts**.
+
+### 🔹 Overlapping Subproblems (Right Side)
+- The same subproblem (`B`) is solved in **multiple paths** in a brute-force tree.
+- Nodes like `Y` and `Z` also show up repeatedly across different branches.
+- **Dynamic Programming** prevents recomputing them by **storing results** (memoization).
+
+---
+
 
 ## ✅ Why It Matters
 
