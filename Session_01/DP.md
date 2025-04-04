@@ -52,19 +52,13 @@ This saves **a massive amount of time**, especially for larger inputs.
 
 ---
 
-## 🖼 Pictorial View: Why DP Works
+## 🖼 Pictorial View: A Different Menu
 
 The diagram below helps us visualize two key ideas behind DP:
 
 <p align="center">
 <img src="tree_dp.png" alt="Overlapping Subproblems and Optimal Substructure" width="800"/>
 </p>
-
-
-
-### 🔹 Overlapping Subproblems (Right Side)
-- Highlights how the **same subproblems** are solved repeatedly in different paths.
-- DP avoids this by **remembering and reusing results**.
 
 ---
 
