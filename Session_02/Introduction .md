@@ -166,6 +166,15 @@ This will output a clean adjacency list in text format.
 | Might Get Stuck?   | Yes (if cycles aren't handled)  | No                             |
 | Memory             | Lower                           | Higher                         |
 
+
+
+| Aspect                | DFS                              | BFS                              |
+|-----------------------|-----------------------------------|----------------------------------|
+| May find target faster? | Depends — faster in deep graphs | Better for closer targets        |
+| Finds shortest path?  | ❌ No                             | ✅ Yes (if unweighted)           |
+| Asymptotic speed?     | O(V + E)                          | O(V + E)                         |
+
+
 ---
 
 
