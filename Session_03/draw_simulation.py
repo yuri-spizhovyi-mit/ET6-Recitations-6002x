@@ -4,7 +4,7 @@ def simulate_draws(num_trials=1000):
     3 red ('R') and 3 green ('G') balls, repeated over a number of trials.
 
     For each trial, tracks the frequency of specific outcomes:
-    
+
     - "RRR": All three draws are red.
     - "RGR": The exact sequence Red → Green → Red.
     - "2R1G": Any sequence with exactly two red balls and one green.

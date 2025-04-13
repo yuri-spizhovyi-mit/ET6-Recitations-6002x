@@ -1,7 +1,10 @@
 import matplotlib.pyplot as plt
 import random
 
-def simulate_population_growth(initial_population, num_generations, reproduction_probability):
+
+def simulate_population_growth(
+    initial_population, num_generations, reproduction_probability
+):
     """
     Simulates population growth over multiple generations with a stochastic process.
 
