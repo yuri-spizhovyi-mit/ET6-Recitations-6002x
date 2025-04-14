@@ -1,4 +1,5 @@
 import random
+import matplotlib.pyplot as plt
 
 
 def trial():
@@ -48,4 +49,35 @@ def simulate_draws(num_trials=1000):
     return tracker
 
 
-simulate_draws(1000)
+def prepare_result_for_plot(result, num_trials):
+    draws = []
+    nums = []
+    for key, value in result.items():
+        draws.append(key)
+        nums.append(value / num_trials * 100)
+    sorted_data = sorted(zip(draws, nums), key=lambda x: x[1], reverse=True)
+    key_sorted, value_sorted = zip(*sorted_data)
+    return key_sorted, value_sorted
+
+
+def plot_result(key_sorted, value_sorted, trials):
+    plt.bar(key_sorted, value_sorted)
+    plt.xlabel("Draws Distribution")
+    plt.ylabel(f"Amount of time per {trials} trials, %")
+    plt.title("Histogram of frequency of specific outcomes")
+    for i, value in enumerate(value_sorted):
+        plt.text(i, value + 0.5, f"{value}%", ha="center", va="bottom", fontsize=9)
+    plt.tight_layout()
+    plt.grid(True)
+    plt.show()
+
+
+def main():
+    trials = 1000
+    result = simulate_draws(trials)
+    key_sorted, value_sorted = prepare_result_for_plot(result, trials)
+    plot_result(key_sorted, value_sorted, trials)
+
+
+if __name__ == "__main__":
+    main()
